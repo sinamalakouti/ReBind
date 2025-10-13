@@ -1,4 +1,4 @@
-# Role Bias in Text-to-Image Diffusion Models:  Diagnosing and Mitigating Compositional Failures through Intermediate Decomposition
+# Role Bias in Diffusion Models: Diagnosing andMitigating through Intermediate Decomposition
 
 
 >TBD
