@@ -1,7 +1,7 @@
 # Role Bias in Diffusion Models: Diagnosing andMitigating through Intermediate Decomposition
 
 
->TBD
+> Coming soon
 ## Acknowledgments
 Parts of this project page were adopted from the [Nerfies](https://nerfies.github.io/) page.
 
