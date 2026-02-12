@@ -1,0 +1,27 @@
+accelerate launch scripts/dpo_baseline_sdxl.py \
+  --pretrained_model_name_or_path=stabilityai/sdxl-turbo \
+  --pretrained_vae_model_name_or_path=madebyollin/sdxl-vae-fp16-fix \
+  --output_dir="diffusion-sdxl-turbo-dpo" \
+  --mixed_precision="fp16" \
+  --dataset_name=kashif/pickascore \
+  --train_batch_size=4 \
+  --gradient_accumulation_steps=2 \
+  --gradient_checkpointing \
+  --use_8bit_adam \
+  --rank=8 \
+  --learning_rate=1e-5 \
+  --report_to="wandb" \
+  --lr_scheduler="constant" \
+  --lr_warmup_steps=0 \
+  --max_train_steps=2000 \
+  --checkpointing_steps=200 \
+  --run_validation --validation_steps=50 \
+  --seed="0" \
+  --report_to="wandb" \
+  --is_turbo --resolution 512 \
+  --push_to_hub \
+  --num_train_epochs 10000 \
+  --llava_quantization \
+  --MLLM_evaluator="internvl"\
+  --dataset_generator_step 32
+#  --use_adafactor
