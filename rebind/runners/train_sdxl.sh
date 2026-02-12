@@ -28,7 +28,7 @@ mkdir -p "${output_dir}"
 echo "Output Directory: ${output_dir}"
 
 # Run the training script with all necessary arguments
-python scripts/sdxl/sdxl_lora_intermediate_imageDPO.py \
+python scripts/sdxl/rebind_lora_sdxl.py \
     --pretrained_model_name_or_path="${pretrained_model}" \
     --data_dir="${data_dir}" \
     --output_dir="${output_dir}" \
