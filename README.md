@@ -1,7 +1,7 @@
 # Role Bias in Diffusion Models: Diagnosing and Mitigating through Intermediate Decomposition
 > [Sina Malakouti](https://www.linkedin.com/in/sinamalakouti) and [Adriana Kovashka](https://people.cs.pitt.edu/~kovashka/)<br>
 
-This is the official repo for Role Bias in Diffusion Models: Diagnosing and Mitigating through Intermediate Decomposition (NeurIPS 2025)
+This is the official repo for Role Bias in Diffusion Models: Diagnosing and Mitigating through Intermediate Decomposition (NeurIPS 2025 and ORAL at [CDEL](https://curateddata.github.io/))
 
 Please contact [Sina Malakouti](https://sinamalakouti.github.io/) at sem238(at)pitt(dot)edu or siinamalakouti(at)gmail(dot)com for any questions or more information.
 
