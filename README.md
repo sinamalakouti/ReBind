@@ -8,8 +8,6 @@ Please contact [Sina Malakouti](https://sinamalakouti.github.io/) at sem238(at)p
 [**NeurIPS page**](https://neurips.cc/virtual/2025/loc/san-diego/poster/115203) | [**Paper**](https://openreview.net/pdf/816107b7a54447e38e0a69c8cdc0f74649c75784.pdf) | [**Project Page**](https://sinamalakouti.github.io/ReBind/)
 
 
-> Will be updated soon
-
 Code for data generation and compositional finetuning (rebind) is included in the repository. Please see the examples in runners/ for instructions on how to run the code. 
 
 
